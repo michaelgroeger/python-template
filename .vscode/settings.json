@@ -1,0 +1,24 @@
+{
+    // Set the default theme to Dark+ (the built‐in dark theme)
+    "workbench.colorTheme": "Default Dark+",
+  
+    // Format on save and auto-fix any issues (for example, by Ruff)
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll": true
+    },
+  
+    // Use the Pylance language server for a robust Python experience
+    "python.languageServer": "Pylance",
+  
+    // Enable linting and configure Ruff as the linter
+    "python.linting.enabled": true,
+    "python.linting.ruffEnabled": true,
+    "python.linting.ruffArgs": [
+      "--fix"
+    ],
+  
+    // (Optional) If using the Ruff extension, you can enable fix-on-save
+    "ruff.fixOnSave": true
+  }
+  

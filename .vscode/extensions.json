@@ -1,0 +1,9 @@
+{
+    "recommendations": [
+        "ms-python.python", // Official Python support
+        "ms-python.vscode-pylance", // Fast and feature-rich language server
+        "charliermarsh.ruff", // Ruff integration for linting and formatting
+        "pre-commit.pre-commit", // (Optional) Helps with managing pre-commit hooks
+        "redhat.vscode-yaml" // YAML support (useful for .pre-commit-config.yaml files)
+    ]
+}
